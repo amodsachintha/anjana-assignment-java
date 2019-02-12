@@ -9,8 +9,7 @@ public class My1DArray {
     }
 
     public double getAverage(double arr[]){
-        double sum = getTotal(arr);
-        return sum / arr.length;
+        return getTotal(arr) / arr.length;
     }
 
     public double getHighestInRow(double arr[]){
